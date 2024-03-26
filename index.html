@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AYUS UNIVERSAL</title>
+
+    
+    
+
+<!-- Code for font awesone cdn -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Code for font awesone cdn -->
+
+<link rel="stylesheet" href="bard.css">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+
+    <!--Header Section Start-->
+    <header class="header" style="padding: 2rem;">
+        <a class="logo" style="display: flex;"><img src="Images/AYUS OFFICIAL BATCH.jpg" style="border-radius: 50px;" height="50px"><p style="font-weight: 900; font-size: 35px;" >AYUS<p></a>
+        
+        
+        
+    <nav class="navbar">
+        
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#about">about</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+       
+    </div>
+
+    <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here....">
+            <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+     <div class="shopping-cart">
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="Images/AYUS OFFICIAL BATCH.jpg" style="height:50px;">
+            <div class="content">
+                <h3></h3>
+                <span class="price">Rs. 599/-</span>
+                <span class="quantity">Qty : 1</span>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="Images/Ganesh Batch.jpg" style="height:50px;">
+            <div class="content">
+                <h3></h3>
+                <span class="price">Rs. 199/-</span>
+                <span class="quantity"> Qty : 1</span>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="Images/Ganesh Batch.jpg" style="height:50px;">
+            <div class="content">
+                <h3></h3>
+                <span class="price">Rs. 49 /-</span>
+                <span class="quantity">  Qty : 1</span>
+            </div>
+        </div>
+        <div class="total">Total : Rs. 197/- </div>
+        <a href="#" class="btn">Checkout</a>
+
+     </div>
+
+
+     <form action="#" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="Your email" class="box">
+        <input type="password" placeholder="Your Password" class="box">
+
+     <p>Forgot Your Password    <a href="#">Click Here</a></p>
+     <p> Don't Have An Account  <a href="#">Create Now</a></p>
+
+        <input type="submit" value="LogIn Now" class="btn">
+
+     </form>
+
+
+
+    </header>
+    <!--Header Section End -->
+
+   
+
+    <main>
+
+
+    <!--Home Section Start-->
+      
+    <section class="home" id="home">
+        <div class="home-content">
+           <img src="data:image/jpeg;base64,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">
+        </div>
+    <!--Home Section End-->
+
+       
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>features</span> </h1>
+
+        <div class="box-container" >
+            <div class="box">
+                <img src="Images/AYUS OFFICIAL BATCH.jpg" style="height: 25rem"> 
+                <h3>Alana Falana Dhimkana</h3>
+
+                <p>ajfsbv sealfjsvnws  sjdnfvn nwnse;rfnv </p>
+                         
+                <a href="#" class="btn">read More</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/AYUS OFFICIAL BATCH.jpg" style="height: 25rem"> 
+                <h3>Alana Falana Dhimkana</h3>
+
+                <p>ajfsbv sealfjsvnws  sjdnfvn nwnse;rfnv </p>
+                         
+                <a href="#" class="btn">read More</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/AYUS OFFICIAL BATCH.jpg"style="height: 25rem"> 
+                <h3>Alana Falana Dhimkana</h3>
+
+                <p>ajfsbv sealfjsvnws  sjdnfvn nwnse;rfnv </p>
+                         
+                <a href="#" class="btn">read More</a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+    </section>
+    <section class="features" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+
+        
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            
+
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Ganesh Batch.jpg" style="height: 25rem">
+                    <h1>ganesha batch</h1>
+                    <div class="price">$9.99/- - 14.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+           
+
+        </div>
+
+    </section>
+<!--Categories Section-->
+    <section class="categories"  id="categories" style="background-color: rgb(249, 249, 249);">
+        <h1 class="heading"> product <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="Images/web dev ayus.png">
+            <h3>Web Devlopement</h3>
+            <p>View More</p>
+            <a href="#" class="btn">Click Here</a>
+        </div>
+
+
+        <div class="box">
+            <img src="Images/Design a single futuristic.jpg">
+            <h3>game Devlopement</h3>
+            <p>View More</p>
+            <a href="#" class="btn">Click Here</a>
+        </div>
+
+
+        <div class="box">
+            <img src="Images/ganesh wall.jpg">
+            <h3>Decorations </h3>
+            <p>View More</p>
+            <a href="#" class="btn">Click Here</a>
+        </div>
+
+        <div class="box">
+            <img src="Images/notes ayus.jpeg">
+            <h3>Notes</h3>
+            <p>View More</p>
+            <a href="#" class="btn">Click Here</a>
+        </div>
+    </div>
+    </section>
+<!--Categories Section-->
+    
+
+
+    
+
+    </main>
+
+    <footer>
+        <p>&copy; </p>
+    </footer>
+
+<script src="bard.js"></script>
+
+</body>
+</html>
