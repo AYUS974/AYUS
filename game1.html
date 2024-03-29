@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="game1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="playerNames">
+            <label for="player1">Player 1 Name:</label>
+            <input type="text" id="player1" name="player1" required><br>
+            <label for="player2">Player 2 Name:</label>
+            <input type="text" id="player2" name="player2" required><br>
+            
+            <button id="sbtn">Start Game</button>  
+            <button id="backToMainButton">Back to Main Page</button>
+        </div>
+        <div id="game" style="display: none;">
+            <div id="message"></div>
+            <div id="board">
+                <div class="cell" data-cell-index="0"></div>
+                <div class="cell" data-cell-index="1"></div>
+                <div class="cell" data-cell-index="2"></div>
+                <div class="cell" data-cell-index="3"></div>
+                <div class="cell" data-cell-index="4"></div>
+                <div class="cell" data-cell-index="5"></div>
+                <div class="cell" data-cell-index="6"></div>
+                <div class="cell" data-cell-index="7"></div>
+                <div class="cell" data-cell-index="8"></div>
+            </div>
+            <div id="winnerMessage" style="display: none;"></div>
+            <button id="btn">Restart</button> 
+            <button id="backButton">Back</button>
+
+
+           
+        </div>
+    </div>
+    <script src="game1.js"></script>
+</body>
+</html>
