@@ -1,0 +1,90 @@
+/* memory.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    margin-top: 5rem;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2.5em;
+    color: #343a40;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 15px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background: #17a2b8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: #138496;
+}
+
+.card.flipped {
+    background: #f8c74f;
+    color: #212529;
+    cursor: default;
+    transform: none;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+.game-message {
+    font-weight: bold;
+}
+
+.timer {
+    font-weight: bold;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reset-button:hover {
+    background: #218838;
+}
